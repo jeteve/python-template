@@ -1,0 +1,21 @@
+[project]
+name = "jeteve_template"
+version = "0.0.1"
+authors = [
+  { name="Jerome Eteve", email="jerome.eteve@gmail.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
