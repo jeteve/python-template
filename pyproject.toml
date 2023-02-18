@@ -14,8 +14,8 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/pypa/sampleproject"
-"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+"Homepage" = "https://github.com/jeteve/python-template"
+"Bug Tracker" = "https://github.com/jeteve/python-template/issues"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
