@@ -4,6 +4,9 @@
 	"name": "Python 3 Project",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/python:0-3.11",
+	"containerEnv": {
+		"PYTHONPATH": "./src"
+	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -20,6 +23,7 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
+				"ms-python.pylint",
 				"bungcip.better-toml"
 			]
 		}	

@@ -1,5 +1,7 @@
 """Basic tests"""
 
+# from jeteve_template.sample import add_one
+
 from jeteve_template.sample import add_one
 
 def test_trivial():
