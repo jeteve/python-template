@@ -3,7 +3,10 @@
 {
 	"name": "Python 3 Project",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/python:0-3.11",
+	//"image": "mcr.microsoft.com/devcontainers/python:3",
+	"build": {
+		"dockerfile": "Dockerfile",
+	},
 	"containerEnv": {
 		"PYTHONPATH": "./src"
 	},
@@ -15,16 +18,14 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "pip3 install --user -r requirements.txt",
 
-	"postStartCommand": ".devcontainer/post-start.sh",
+	//"postStartCommand": ".devcontainer/post-start.sh",
 
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"ms-python.pylint",
-				"bungcip.better-toml"
+				"ms-python.pylint"
 			]
 		}	
 	}

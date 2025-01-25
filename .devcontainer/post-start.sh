@@ -1,12 +1,7 @@
 #! /bin/bash
 set -xe
 
-echo "Upgrading pip"
-python -m pip install --upgrade pip
-echo "Installing pip-tools"
-python -m pip install pip-tools
+uv venv
+source .venv/bin/activate
 
-echo "Synchronizing requirements"
-./sync-python-deps.sh
-
-
+uv pip sync requirements.txt dev-requirements.txt
