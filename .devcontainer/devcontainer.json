@@ -5,7 +5,7 @@
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	//"image": "mcr.microsoft.com/devcontainers/python:3",
 	"build": {
-		"dockerfile": "Dockerfile",
+		"dockerfile": "Dockerfile"
 	},
 	"containerEnv": {
 		"PYTHONPATH": "./src"
@@ -19,7 +19,7 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 
-	//"postStartCommand": ".devcontainer/post-start.sh",
+	"postStartCommand": ".devcontainer/post-start.sh",
 
 	// Configure tool-specific properties.
 	"customizations": {
