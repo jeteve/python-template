@@ -16,7 +16,8 @@ classifiers = [
 dependencies = []
 [project.optional-dependencies]
 dev = [
-    "pytest"
+    "pytest",
+    "ipykernel"
 ]
 
 [project.urls]
