@@ -6,7 +6,7 @@ This package's structure follows the guidance from Pypi: https://packaging.pytho
 
 # Dependency managements
 
-This uses https://github.com/jazzband/pip-tools to pin the dependencies specified from
+This uses UV ( https://docs.astral.sh/uv/ ) to pin the dependencies specified from
 ```pyproject.toml``` into requirements.txt and dev-requirements.txt
 
 This can be achieved just by running:
