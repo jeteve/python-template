@@ -17,6 +17,6 @@ This can be achieved just by running:
 # Building the package for distribution:
 
 ```
-python3 -m pip install --upgrade build
+uv pip install --upgrade build
 python3 -m build
 ```
