@@ -20,6 +20,7 @@
 	// Use 'postCreateCommand' to run commands after the container is created.
 
 	"postStartCommand": ".devcontainer/post-start.sh",
+	"postAttachCommand": ".devcontainer/post-attach.sh",
 
 	// Configure tool-specific properties.
 	"customizations": {
