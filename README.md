@@ -11,7 +11,10 @@ This uses UV ( https://docs.astral.sh/uv/ ) to pin the dependencies specified fr
 
 This can be achieved just by running:
 ```
-./sync-python-deps.sh
+# Activate the environment 
+$ source .venv/bin/activate
+# And sync the dependencies
+$ ./sync-python-deps.sh
 ```
 
 # Building the package for distribution:
