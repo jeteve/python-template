@@ -14,11 +14,15 @@ classifiers = [
 ]
 
 dependencies = []
+
 [project.optional-dependencies]
 dev = [
     "pytest",
     "ipykernel"
 ]
+
+[project.scripts]
+jeteve_template_cli = "jeteve_template.cli:one_main"
 
 [project.urls]
 "Homepage" = "https://github.com/jeteve/python-template"
