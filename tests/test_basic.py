@@ -4,12 +4,22 @@
 
 from jeteve_template import hello
 from jeteve_template.arithmetic import add_one
+from jeteve_template.arithmetic.multiply import multiply_by_two
 from jeteve_template.stringstuff import trim
 
 
 def test_trivial():
     """Trivial test"""
     assert True
+
+
+def test_multiply_by_two():
+    """Just testing multiply_by_two"""
+    assert multiply_by_two(2) == 4
+    assert multiply_by_two(0) == 0
+    assert multiply_by_two(-3) == -6
+    assert multiply_by_two(1) == 2
+    assert multiply_by_two(10) == 20
 
 
 def test_hello():
