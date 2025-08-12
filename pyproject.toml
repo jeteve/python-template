@@ -1,25 +1,20 @@
 [project]
 name = "jeteve_template"
 version = "0.0.1"
-authors = [
-  { name="Jerome Eteve", email="jerome.eteve@gmail.com" },
-]
+authors = [{ name = "Jerome Eteve", email = "jerome.eteve@gmail.com" }]
 description = "A small example package"
 readme = "README.md"
 requires-python = ">=3.11"
 classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
 ]
 
 dependencies = []
 
 [project.optional-dependencies]
-dev = [
-    "pytest",
-    "ipykernel"
-]
+dev = ["pytest", "ipykernel"]
 
 [project.scripts]
 jeteve_template_cli = "jeteve_template.cli:one_main"
@@ -36,3 +31,6 @@ sources = ["src"]
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
+
+[tool.ruff.lint]
+select = ["ALL"]

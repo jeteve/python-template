@@ -1,10 +1,11 @@
-"""One CLI"""
+"""One CLI."""
+
 import sys
 
 
 def one_main() -> int:
-    """Main function"""
-    print("Hello world from jeteve_template CLI!")
+    """Run the main code."""
+    print("Hello world from jeteve_template CLI!")  # noqa: T201
     return 0
 
 

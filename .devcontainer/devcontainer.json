@@ -21,9 +21,10 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"ms-python.pylint",
 				"ms-toolsai.jupyter",
-				"tamasfe.even-better-toml"
+				"tamasfe.even-better-toml",
+				"ms-python.python",
+				"charliermarsh.ruff"
 			]
 		}
 	}

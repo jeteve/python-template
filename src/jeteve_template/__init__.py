@@ -1,4 +1,4 @@
-"""Top level things"""
+"""Top level things."""
 
 
 def hello(name: str) -> str:

@@ -1,6 +1,6 @@
-"""Sample functions"""
+"""Sample functions."""
 
 
 def add_one(number: int) -> int:
-    """Adds one to number"""
+    """Return the number with one added."""
     return number + 1
