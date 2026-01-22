@@ -1,8 +1,7 @@
 #! /bin/bash
 set -xe
 
-uv venv
+uv venv --clear
 source .venv/bin/activate
 
-#echo "#For venv" >> ~/.bashrc
-#echo "source .venv/bin/activate" >> ~/.bashrc
+
