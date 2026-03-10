@@ -7,9 +7,15 @@ from jeteve_template.arithmetic import add_one
 from jeteve_template.arithmetic.multiply import multiply_by_two
 from jeteve_template.stringstuff import trim
 
+import logging
+
+LOG = logging.getLogger(__name__)
+
 
 def test_trivial():
     """Trivial test"""
+    print("This print line")
+    LOG.debug("This is a debug line")
     assert True
 
 

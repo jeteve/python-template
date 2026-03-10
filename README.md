@@ -17,6 +17,13 @@ $ source .venv/bin/activate
 $ ./sync-python-deps.sh
 ```
 
+# View the logs and the prints running test.
+
+
+```sh
+ pytest -o log_cli=true -o log_cli_level=DEBUG -s
+```
+
 # Developing the CLI:
 
 python src/jeteve_template/cli.py
