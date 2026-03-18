@@ -11,7 +11,7 @@ classifiers = [
   "Operating System :: OS Independent",
 ]
 
-dependencies = []
+dependencies = ["plotly", "numpy", "nbformat"]
 
 [project.optional-dependencies]
 dev = ["pytest", "ipykernel"]

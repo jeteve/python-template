@@ -21,7 +21,7 @@ $ ./sync-python-deps.sh
 
 
 ```sh
- pytest -o log_cli=true -o log_cli_level=DEBUG -s
+pytest -o log_cli=true -o log_cli_level=DEBUG -s
 ```
 
 # Developing the CLI:
