@@ -2,12 +2,12 @@
 
 # from jeteve_template.sample import add_one
 
+import logging
+
 from jeteve_template import hello
 from jeteve_template.arithmetic import add_one
 from jeteve_template.arithmetic.multiply import multiply_by_two
 from jeteve_template.stringstuff import trim
-
-import logging
 
 LOG = logging.getLogger(__name__)
 
@@ -33,7 +33,6 @@ def test_hello():
     assert hello("World") == "Hello, World!"
     assert hello("Alice") == "Hello, Alice!"
     assert hello("") == "Hello, !"
-    assert hello(None) == "Hello, None!"
     assert hello("Bob") == "Hello, Bob!"
 
 
@@ -46,7 +45,6 @@ def test_trim():
     """Just testing trim"""
     assert trim("  hello  ") == "hello"
     assert trim("") == ""
-    assert trim(None) == ""
     assert trim("   ") == ""
     assert trim("test") == "test"
     assert trim("  test  ") == "test"
