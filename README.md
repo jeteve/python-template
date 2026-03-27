@@ -17,6 +17,12 @@ $ source .venv/bin/activate
 $ ./sync-python-deps.sh
 ```
 
+## Upgrading one dependency (even transitive)
+
+```sh
+uv lock --upgrade-package <package>
+```
+
 # View the logs and the prints running test.
 
 
