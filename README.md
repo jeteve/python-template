@@ -4,10 +4,16 @@
 
 This package's structure follows the guidance from Pypi: https://packaging.python.org/en/latest/tutorials/packaging-projects/
 
+# Getting started
+
+If you use the included `.devcontainer`, this will create the python venv using `uv` for you, using the latest python stable version.
+
+If you don't use devcontainers, look in the `post-create.sh` and `post-start.sh` scripts in `.devcontainer`.
+
 # Dependency managements
 
 This uses UV ( https://docs.astral.sh/uv/ ) to pin the dependencies specified from
-```pyproject.toml``` into requirements.txt and dev-requirements.txt
+```pyproject.toml``` into a uv lock file.
 
 This can be achieved just by running:
 ```sh
